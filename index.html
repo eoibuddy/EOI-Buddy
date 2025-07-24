@@ -2,126 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EOI & ROI Assistance - EOI Buddy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EOI Buddy - Expert EOI and ROI Form Assistance</title>
+  <meta name="description" content="EOI Buddy helps you fill skilled migration EOI and ROI forms quickly and accurately. Affordable prices and easy online booking." />
+  <meta name="author" content="EOI Buddy" />
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f7fa;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
+      padding: 20px;
       color: #333;
     }
     header {
-      background-color: #003366;
-      color: white;
-      padding: 2rem;
       text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      color: #007acc;
+      margin-bottom: 10px;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
     }
     main {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-    }
-    section {
-      margin-bottom: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
     }
     h2 {
-      color: #003366;
+      color: #007acc;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .pricing {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .price-box {
+      background: #e6f0ff;
+      border-radius: 8px;
+      padding: 15px 25px;
+      flex: 1 1 150px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .price-box h3 {
+      margin: 0 0 10px 0;
+      color: #005a9e;
+    }
+    .price-box p {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: 0;
+      color: #003d66;
+    }
+    .disclaimer {
+      font-size: 0.85rem;
+      color: #888;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact p {
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+    .btn-book {
+      display: inline-block;
+      background-color: #007acc;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+    }
+    .btn-book:hover {
+      background-color: #005a9e;
     }
     footer {
       text-align: center;
-      background: #e0e0e0;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-    .cta {
-      background: #0059b3;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-      font-size: 1.2rem;
-      margin: 2rem 0;
-    }
-    a.button {
-      background-color: #0073e6;
-      color: white;
-      padding: 0.8rem 1.5rem;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    iframe {
-      width: 100%;
-      border: none;
-      height: 600px;
+      font-size: 0.8rem;
+      color: #aaa;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>EOI Buddy</h1>
-    <p>Helping Skilled Migrants Navigate the Path to Australian PR</p>
+    <p>Your trusted partner for skilled migration EOI and ROI form submission</p>
   </header>
-
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p>I’m EOI Buddy, a skilled migrant and current visa applicant who understands the challenges of submitting EOIs and ROIs across Australian states. I help others by offering accurate, affordable support in completing these applications the right way.</p>
-      <p><strong>Disclaimer:</strong> I am not a registered migration agent or legal advisor. I only assist with form-filling based on publicly available guidelines and personal experience.</p>
-    </section>
-
-    <section>
-      <h2>My Services</h2>
-      <ul>
-        <li>EOI Form Completion (SkillSelect)</li>
-        <li>ROI Submission for WA, SA, VIC, etc.</li>
-        <li>Points Calculation & Guidance</li>
-        <li>General Skilled Migration Process Support</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Pricing</h2>
-      <ul>
-        <li><strong>EOI Only:</strong> $150</li>
-        <li><strong>ROI Only:</strong> $150</li>
-        <li><strong>EOI + ROI Bundle:</strong> $250</li>
-      </ul>
-    </section>
-
-    <div class="cta">
-      <p>Want help with your EOI or ROI?</p>
-      <a class="button" href="mailto:Eoibuddy@gmail.com">Contact Me</a>
+    <h2>Pricing</h2>
+    <div class="pricing">
+      <div class="price-box">
+        <h3>EOI Form</h3>
+        <p>$150</p>
+      </div>
+      <div class="price-box">
+        <h3>ROI Form</h3>
+        <p>$150</p>
+      </div>
+      <div class="price-box">
+        <h3>Bundle Offer</h3>
+        <p>$250</p>
+      </div>
     </div>
+    <p class="disclaimer">* I am not a migration advisor. I provide assistance with form filling only.</p>
 
-    <section>
-      <h2>Book a Session</h2>
-      <p>Use the calendar below to book a time that suits you for an online consultation.</p>
-      <iframe src="https://calendly.com/your-calendly-username" title="Book an Appointment"></iframe>
-    </section>
-
-    <section>
-      <h2>Why Choose Me?</h2>
-      <ul>
-        <li>First-hand experience as a skilled migrant</li>
-        <li>Simple, step-by-step support</li>
-        <li>Flexible communication (email or WhatsApp)</li>
-        <li>Affordable flat rates</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:Eoibuddy@gmail.com">Eoibuddy@gmail.com</a></p>
-      <p>Phone/WhatsApp: <a href="https://wa.me/61405755545">0405 755 545</a></p>
-      <p>Available Australia-wide (online)</p>
-    </section>
+    <div class="contact">
+      <p>📞 WhatsApp: <a href="https://wa.me/61405755545" target="_blank">0405 755 545</a></p>
+      <p>📧 Email: <a href="mailto:Eoibuddy@gmail.com">Eoibuddy@gmail.com</a></p>
+      <a href="#" class="btn-book">Book Online Now</a>
+    </div>
   </main>
-
   <footer>
-    &copy; 2025 EOI Buddy | EOI/ROI Support Service
+    &copy; 2025 EOI Buddy
   </footer>
 </body>
 </html>
